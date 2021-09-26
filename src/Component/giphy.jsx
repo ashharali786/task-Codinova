@@ -18,6 +18,7 @@ const Giphy = () => {
       const result = await axios("https://api.giphy.com/v1/gifs/trending", {
         params: {
           api_key: "6dUK5QhVzjp1hs13YjhtskPtPvSNLsz6",
+          limit: 2000
         },
       });
       console.log(result);
