@@ -1,0 +1,53 @@
+.bar {
+    width: 190px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 5px 12px 10px; 
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  .bar:focus {
+    width: 35%;
+  } 
+  
+  .btn {
+    border: none;
+    color: white;
+    padding: 13px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-size: 16px;
+  }
+  
+  .btn2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .btn2:hover {
+    background-color: #555555;
+    color: white;
+  }
+  
+  .gifs{
+    margin: 0 auto;
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gif{
+    padding: 0 2px;
+  }
